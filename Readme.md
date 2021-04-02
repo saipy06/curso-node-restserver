@@ -17,6 +17,16 @@ $ git add .
 $ git commit -m "Readme agregado"
 $ git push
 
+
+
+-- Para recuperar archivos o carpetas
+$ git checkout -- .
+
+--- Despues de bajar se debe correr el siguiente comando
+$ npm install   (para instalar los modulos despues de recuperar)
+
+
+
 ```
 
 
@@ -25,6 +35,4 @@ $ git push
 
 
 
-
-git install   (para instalar los modulos despues de recuperar)
 
