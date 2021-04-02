@@ -22,6 +22,12 @@ $ git push
 -- Para recuperar archivos o carpetas
 $ git checkout -- .
 
+
+-- Para darle una version al proyecto
+$ git tag -a v1.0.0 -m "Fin seccion 8"
+$ git push --tags
+
+
 --- Despues de bajar se debe correr el siguiente comando
 $ npm install   (para instalar los modulos despues de recuperar)
 
